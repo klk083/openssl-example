@@ -25,7 +25,7 @@ Choose Compile and Run in the Project menu.
 
 ## Running tests
 
-### Alternative 1
+### Alternative 1  maybe
 In juCi++, open `tests/crypto_test.cpp`, and choose Compile and Run in the Project menu.
 
 ### Alternative 2
