@@ -25,7 +25,7 @@ public:
   static std::string md5(const std::string &input) {
     std::string hash;
     hash.resize(128 / 8);
-    MD5(((const unsigned char *)input.data(), input.size(), (unsigned char *)hash.data());
+    MD5((const unsigned char *)input.data(), input.size(), (unsigned char *)hash.data());
     return hash;
   }
 
@@ -41,7 +41,7 @@ public:
   static std::string sha256(const std::string &input) {
       std::string hash;
       hash.resize(256 / 8);
-      SHA256(((const unsigned char *)input.data(), input.size(), (unsigned char *)hash.data());
+      SHA256((const unsigned char *)input.data(), input.size(), (unsigned char *)hash.data());
       return hash;
   }
 
@@ -49,7 +49,7 @@ public:
   static std::string sha512(const std::string &input) {
      std::string hash;
      hash.resize(512 / 8);
-     SHA512(((const unsigned char *)input.data(), input.size(), (unsigned char *)hash.data());
+     SHA512((const unsigned char *)input.data(), input.size(), (unsigned char *)hash.data());
      return hash;
   }
 
